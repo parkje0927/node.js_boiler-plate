@@ -7,3 +7,7 @@
 - 시작할 때 nodemon 으로 시작하기 위해 script 하나를 추가
     + "backend": "nodemon index.js"
     + 서버 시작 방법 : npm run backend
+
+### 비밀 설정 정보 관리
+- development 모드 : local 환경에서는 dev.js 에 넣어서 여기서 가져오도록 한다. 
+- production 모드 : deploy 환경에서는 heroku 와 같은 cloud 서비스를 이용 시 배포 후에는 여기서 가져오도록 한다.
