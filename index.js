@@ -1,4 +1,5 @@
 const express = require('express')
+//express 서버 사용 시 => app. 
 const app = express()
 const port = 5000
 
